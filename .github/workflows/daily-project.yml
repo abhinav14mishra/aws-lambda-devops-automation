@@ -1,0 +1,121 @@
+name: Publish One AWS Lambda Project Per Day
+
+on:
+  schedule:
+    # 03:30 UTC = 09:00 IST
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-lambda-project
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Find and move next project
+        id: move
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ ! -d "queue" ]; then
+            echo "queue/ does not exist. Nothing to publish."
+            echo "has_project=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          PROJECT="$(
+            find queue \
+              -mindepth 1 \
+              -maxdepth 1 \
+              -type d \
+              -printf '%f\n' |
+              sort -V |
+              head -n 1
+          )"
+
+          if [ -z "$PROJECT" ]; then
+            echo "No projects remain in queue."
+            rmdir queue || true
+            echo "has_project=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "Publishing: $PROJECT"
+
+          mkdir -p src
+          mv "queue/$PROJECT" "src/$PROJECT"
+
+          echo "has_project=true" >> "$GITHUB_OUTPUT"
+          echo "project=$PROJECT" >> "$GITHUB_OUTPUT"
+
+          if [ -z "$(find queue -mindepth 1 -print -quit 2>/dev/null)" ]; then
+            rmdir queue
+            echo "queue_empty=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "queue_empty=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Update README progress
+        if: steps.move.outputs.has_project == 'true'
+        run: |
+          set -euo pipefail
+          python3 scripts/update_progress.py "${{ steps.move.outputs.project }}"
+
+      - name: Verify promotion
+        if: steps.move.outputs.has_project == 'true'
+        run: |
+          set -euo pipefail
+
+          PROJECT="${{ steps.move.outputs.project }}"
+
+          test -d "src/$PROJECT"
+          test ! -d "queue/$PROJECT"
+
+          echo "Verified: $PROJECT is now in src/"
+
+      - name: Show changes
+        if: steps.move.outputs.has_project == 'true'
+        run: |
+          git status --short
+          git diff -- README.md
+
+      - name: Commit and push
+        if: steps.move.outputs.has_project == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          PROJECT="${{ steps.move.outputs.project }}"
+
+          if [ "$PROJECT" = "$(printf '%03d' 100)_$(echo "$PROJECT" | cut -d'_' -f2-)" ] || [ "${PROJECT%%_*}" = "100" ]; then
+            COMMIT_MESSAGE="chore: publish final Lambda project"
+          else
+            COMMIT_MESSAGE="chore: publish $PROJECT"
+          fi
+
+          git commit -m "$COMMIT_MESSAGE"
+          git push
