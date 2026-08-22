@@ -6,7 +6,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 
 | Day | Folder | Project | Status |
 |---:|---|---|:---:|
-| 1 | `001_hello_world` | Hello World Lambda | ⏳ |
+| 1 | `001_hello_world` | Hello World Lambda | ✅ |
 | 2 | `002_environment_variables` | Read Environment Variables | ⏳ |
 | 3 | `003_json_response` | Return JSON Response | ⏳ |
 | 4 | `004_cloudwatch_logging` | Write Logs to CloudWatch | ⏳ |
