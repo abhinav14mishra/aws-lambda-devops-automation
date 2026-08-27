@@ -11,7 +11,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 3 | `003_json_response` | Return JSON Response | ✅ |
 | 4 | `004_cloudwatch_logging` | Write Logs to CloudWatch | ✅ |
 | 5 | `005_secrets_manager` | Read Secrets from Secrets Manager | ✅ |
-| 6 | `006_ssm_parameter` | Read SSM Parameter | ⏳ |
+| 6 | `006_ssm_parameter` | Read SSM Parameter | ✅ |
 | 7 | `007_s3_upload` | Upload File to S3 | ⏳ |
 | 8 | `008_s3_download` | Download File from S3 | ⏳ |
 | 9 | `009_s3_copy` | Copy Files Between S3 Buckets | ⏳ |
