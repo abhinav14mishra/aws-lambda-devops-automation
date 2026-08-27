@@ -25,8 +25,17 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "abhinav14mishra"
+          git config user.email "abhinav14mishra@gmail.com"
+
+          echo "Git user:"
+          git config user.name
+
+          echo "Git email:"
+          git config user.email
+
+          echo "Author identity:"
+          git var GIT_AUTHOR_IDENT
 
       - name: Find and move next project
         id: move
@@ -46,8 +55,8 @@ jobs:
               -maxdepth 1 \
               -type d \
               -printf '%f\n' |
-              sort -V |
-              head -n 1
+            sort -V |
+            head -n 1
           )"
 
           if [ -z "$PROJECT" ]; then
@@ -111,7 +120,7 @@ jobs:
 
           PROJECT="${{ steps.move.outputs.project }}"
 
-          if [ "$PROJECT" = "$(printf '%03d' 100)_$(echo "$PROJECT" | cut -d'_' -f2-)" ] || [ "${PROJECT%%_*}" = "100" ]; then
+          if [ "${PROJECT%%_*}" = "100" ]; then
             COMMIT_MESSAGE="chore: publish final Lambda project"
           else
             COMMIT_MESSAGE="chore: publish $PROJECT"
