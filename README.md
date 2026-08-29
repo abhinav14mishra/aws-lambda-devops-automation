@@ -13,7 +13,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 5 | `005_secrets_manager` | Read Secrets from Secrets Manager | ✅ |
 | 6 | `006_ssm_parameter` | Read SSM Parameter | ✅ |
 | 7 | `007_s3_upload` | Upload File to S3 | ✅ |
-| 8 | `008_s3_download` | Download File from S3 | ⏳ |
+| 8 | `008_s3_download` | Download File from S3 | ✅ |
 | 9 | `009_s3_copy` | Copy Files Between S3 Buckets | ⏳ |
 | 10 | `010_s3_delete` | Delete File from S3 | ⏳ |
 | 11 | `011_s3_list_objects` | List S3 Objects | ⏳ |
