@@ -20,7 +20,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 12 | `012_s3_create_bucket` | Create S3 Bucket | ✅ |
 | 13 | `013_s3_presigned_url` | Generate S3 Pre-Signed URL | ✅ |
 | 14 | `014_s3_read_csv` | Read CSV from S3 | ✅ |
-| 15 | `015_csv_to_json` | Convert CSV to JSON | ⏳ |
+| 15 | `015_csv_to_json` | Convert CSV to JSON | ✅ |
 | 16 | `016_ec2_start` | Start EC2 Instance | ⏳ |
 | 17 | `017_ec2_stop` | Stop EC2 Instance | ⏳ |
 | 18 | `018_ec2_reboot` | Reboot EC2 Instance | ⏳ |
