@@ -24,7 +24,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 16 | `016_ec2_start` | Start EC2 Instance | ✅ |
 | 17 | `017_ec2_stop` | Stop EC2 Instance | ✅ |
 | 18 | `018_ec2_reboot` | Reboot EC2 Instance | ✅ |
-| 19 | `019_ec2_terminate` | Terminate EC2 Instance | ⏳ |
+| 19 | `019_ec2_terminate` | Terminate EC2 Instance | ✅ |
 | 20 | `020_ec2_launch` | Launch EC2 Instance | ⏳ |
 | 21 | `021_ec2_describe` | Describe EC2 Instances | ⏳ |
 | 22 | `022_ec2_start_by_tag` | Start EC2 by Tag | ⏳ |
