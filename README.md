@@ -28,7 +28,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 20 | `020_ec2_launch` | Launch EC2 Instance | ✅ |
 | 21 | `021_ec2_describe` | Describe EC2 Instances | ✅ |
 | 22 | `022_ec2_start_by_tag` | Start EC2 by Tag | ✅ |
-| 23 | `023_ec2_stop_by_tag` | Stop EC2 by Tag | ⏳ |
+| 23 | `023_ec2_stop_by_tag` | Stop EC2 by Tag | ✅ |
 | 24 | `024_ec2_scheduled_shutdown` | Scheduled EC2 Shutdown | ⏳ |
 | 25 | `025_ec2_scheduled_start` | Scheduled EC2 Start | ⏳ |
 | 26 | `026_ec2_idle_detector` | Detect Idle EC2 Instances | ⏳ |
