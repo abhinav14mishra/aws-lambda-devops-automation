@@ -32,7 +32,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 24 | `024_ec2_scheduled_shutdown` | Scheduled EC2 Shutdown | ✅ |
 | 25 | `025_ec2_scheduled_start` | Scheduled EC2 Start | ✅ |
 | 26 | `026_ec2_idle_detector` | Detect Idle EC2 Instances | ✅ |
-| 27 | `027_ec2_status_report` | EC2 Status Report | ⏳ |
+| 27 | `027_ec2_status_report` | EC2 Status Report | ✅ |
 | 28 | `028_ec2_auto_tag` | Auto Tag EC2 Instances | ⏳ |
 | 29 | `029_unused_elastic_ips` | Find Unused Elastic IPs | ⏳ |
 | 30 | `030_ec2_missing_tags` | Find EC2 Missing Tags | ⏳ |
