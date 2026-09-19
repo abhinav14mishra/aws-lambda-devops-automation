@@ -34,7 +34,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 26 | `026_ec2_idle_detector` | Detect Idle EC2 Instances | ✅ |
 | 27 | `027_ec2_status_report` | EC2 Status Report | ✅ |
 | 28 | `028_ec2_auto_tag` | Auto Tag EC2 Instances | ✅ |
-| 29 | `029_unused_elastic_ips` | Find Unused Elastic IPs | ⏳ |
+| 29 | `029_unused_elastic_ips` | Find Unused Elastic IPs | ✅ |
 | 30 | `030_ec2_missing_tags` | Find EC2 Missing Tags | ⏳ |
 | 31 | `031_ebs_snapshot` | Create EBS Snapshot | ⏳ |
 | 32 | `032_delete_old_snapshots` | Delete Old EBS Snapshots | ⏳ |
