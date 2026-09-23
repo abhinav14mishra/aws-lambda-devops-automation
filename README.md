@@ -38,7 +38,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 30 | `030_ec2_missing_tags` | Find EC2 Missing Tags | ✅ |
 | 31 | `031_ebs_snapshot` | Create EBS Snapshot | ✅ |
 | 32 | `032_delete_old_snapshots` | Delete Old EBS Snapshots | ✅ |
-| 33 | `033_backup_ec2_volumes` | Backup EC2 Volumes | ⏳ |
+| 33 | `033_backup_ec2_volumes` | Backup EC2 Volumes | ✅ |
 | 34 | `034_restore_volume` | Restore Volume From Snapshot | ⏳ |
 | 35 | `035_unattached_ebs` | Find Unattached EBS Volumes | ⏳ |
 | 36 | `036_delete_unused_ebs` | Delete Unused EBS Volumes | ⏳ |
