@@ -42,7 +42,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 34 | `034_restore_volume` | Restore Volume From Snapshot | ✅ |
 | 35 | `035_unattached_ebs` | Find Unattached EBS Volumes | ✅ |
 | 36 | `036_delete_unused_ebs` | Delete Unused EBS Volumes | ✅ |
-| 37 | `037_create_ami` | Create AMI From EC2 | ⏳ |
+| 37 | `037_create_ami` | Create AMI From EC2 | ✅ |
 | 38 | `038_delete_old_amis` | Delete Old AMIs | ⏳ |
 | 39 | `039_copy_ami_region` | Copy AMI To Another Region | ⏳ |
 | 40 | `040_weekly_backup` | Weekly AWS Backup | ⏳ |
