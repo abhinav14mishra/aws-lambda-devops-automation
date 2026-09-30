@@ -45,7 +45,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 37 | `037_create_ami` | Create AMI From EC2 | ✅ |
 | 38 | `038_delete_old_amis` | Delete Old AMIs | ✅ |
 | 39 | `039_copy_ami_region` | Copy AMI To Another Region | ✅ |
-| 40 | `040_weekly_backup` | Weekly AWS Backup | ⏳ |
+| 40 | `040_weekly_backup` | Weekly AWS Backup | ✅ |
 | 41 | `041_image_thumbnail` | S3 Image Thumbnail Generator | ⏳ |
 | 42 | `042_image_compression` | S3 Image Compression Pipeline | ⏳ |
 | 43 | `043_pdf_password` | PDF Password Protection Pattern | ⏳ |
