@@ -48,7 +48,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 40 | `040_weekly_backup` | Weekly AWS Backup | ✅ |
 | 41 | `041_image_thumbnail` | S3 Image Thumbnail Generator | ✅ |
 | 42 | `042_image_compression` | S3 Image Compression Pipeline | ✅ |
-| 43 | `043_pdf_password` | PDF Password Protection Pattern | ⏳ |
+| 43 | `043_pdf_password` | PDF Password Protection Pattern | ✅ |
 | 44 | `044_pdf_merge` | PDF Merge Automation Pattern | ⏳ |
 | 45 | `045_image_resize` | S3 Image Resize | ⏳ |
 | 46 | `046_image_watermark` | S3 Image Watermark Pattern | ⏳ |
