@@ -51,7 +51,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 43 | `043_pdf_password` | PDF Password Protection Pattern | ✅ |
 | 44 | `044_pdf_merge` | PDF Merge Automation Pattern | ✅ |
 | 45 | `045_image_resize` | S3 Image Resize | ✅ |
-| 46 | `046_image_watermark` | S3 Image Watermark Pattern | ⏳ |
+| 46 | `046_image_watermark` | S3 Image Watermark Pattern | ✅ |
 | 47 | `047_pdf_text_extraction` | PDF Text Extraction Pattern | ⏳ |
 | 48 | `048_file_virus_scan` | Uploaded File Virus Scan Pattern | ⏳ |
 | 49 | `049_s3_archive_old` | Archive Old S3 Files | ⏳ |
