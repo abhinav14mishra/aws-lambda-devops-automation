@@ -54,7 +54,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 46 | `046_image_watermark` | S3 Image Watermark Pattern | ✅ |
 | 47 | `047_pdf_text_extraction` | PDF Text Extraction Pattern | ✅ |
 | 48 | `048_file_virus_scan` | Uploaded File Virus Scan Pattern | ✅ |
-| 49 | `049_s3_archive_old` | Archive Old S3 Files | ⏳ |
+| 49 | `049_s3_archive_old` | Archive Old S3 Files | ✅ |
 | 50 | `050_s3_delete_old` | Delete Old S3 Files | ⏳ |
 | 51 | `051_s3_move_files` | Move S3 Files | ⏳ |
 | 52 | `052_s3_usage_report` | S3 Storage Usage Report | ⏳ |
