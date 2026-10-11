@@ -56,7 +56,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 48 | `048_file_virus_scan` | Uploaded File Virus Scan Pattern | ✅ |
 | 49 | `049_s3_archive_old` | Archive Old S3 Files | ✅ |
 | 50 | `050_s3_delete_old` | Delete Old S3 Files | ✅ |
-| 51 | `051_s3_move_files` | Move S3 Files | ⏳ |
+| 51 | `051_s3_move_files` | Move S3 Files | ✅ |
 | 52 | `052_s3_usage_report` | S3 Storage Usage Report | ⏳ |
 | 53 | `053_public_s3_detector` | Detect Public S3 Buckets | ⏳ |
 | 54 | `054_s3_block_public` | Block Public S3 Access | ⏳ |
