@@ -58,7 +58,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 50 | `050_s3_delete_old` | Delete Old S3 Files | ✅ |
 | 51 | `051_s3_move_files` | Move S3 Files | ✅ |
 | 52 | `052_s3_usage_report` | S3 Storage Usage Report | ✅ |
-| 53 | `053_public_s3_detector` | Detect Public S3 Buckets | ⏳ |
+| 53 | `053_public_s3_detector` | Detect Public S3 Buckets | ✅ |
 | 54 | `054_s3_block_public` | Block Public S3 Access | ⏳ |
 | 55 | `055_s3_encrypt_upload` | Encrypt S3 Upload | ⏳ |
 | 56 | `056_iam_list_users` | List IAM Users | ⏳ |
