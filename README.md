@@ -61,7 +61,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 53 | `053_public_s3_detector` | Detect Public S3 Buckets | ✅ |
 | 54 | `054_s3_block_public` | Block Public S3 Access | ✅ |
 | 55 | `055_s3_encrypt_upload` | Encrypt S3 Upload | ✅ |
-| 56 | `056_iam_list_users` | List IAM Users | ⏳ |
+| 56 | `056_iam_list_users` | List IAM Users | ✅ |
 | 57 | `057_iam_create_user` | Create IAM User | ⏳ |
 | 58 | `058_iam_disable_inactive` | Disable Inactive IAM Users | ⏳ |
 | 59 | `059_iam_rotate_keys` | Rotate IAM Access Keys | ⏳ |
