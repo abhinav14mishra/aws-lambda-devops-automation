@@ -63,7 +63,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 55 | `055_s3_encrypt_upload` | Encrypt S3 Upload | ✅ |
 | 56 | `056_iam_list_users` | List IAM Users | ✅ |
 | 57 | `057_iam_create_user` | Create IAM User | ✅ |
-| 58 | `058_iam_disable_inactive` | Disable Inactive IAM Users | ⏳ |
+| 58 | `058_iam_disable_inactive` | Disable Inactive IAM Users | ✅ |
 | 59 | `059_iam_rotate_keys` | Rotate IAM Access Keys | ⏳ |
 | 60 | `060_iam_old_keys` | Detect Old IAM Access Keys | ⏳ |
 | 61 | `061_iam_delete_unused_keys` | Delete Unused Access Keys | ⏳ |
