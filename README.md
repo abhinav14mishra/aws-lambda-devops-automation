@@ -65,7 +65,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 57 | `057_iam_create_user` | Create IAM User | ✅ |
 | 58 | `058_iam_disable_inactive` | Disable Inactive IAM Users | ✅ |
 | 59 | `059_iam_rotate_keys` | Rotate IAM Access Keys | ✅ |
-| 60 | `060_iam_old_keys` | Detect Old IAM Access Keys | ⏳ |
+| 60 | `060_iam_old_keys` | Detect Old IAM Access Keys | ✅ |
 | 61 | `061_iam_delete_unused_keys` | Delete Unused Access Keys | ⏳ |
 | 62 | `062_access_key_alert` | Access Key Expiry Alert | ⏳ |
 | 63 | `063_users_without_mfa` | Detect Users Without MFA | ⏳ |
