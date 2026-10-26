@@ -71,7 +71,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 63 | `063_users_without_mfa` | Detect Users Without MFA | ✅ |
 | 64 | `064_enforce_mfa` | Enforce MFA Policy Pattern | ✅ |
 | 65 | `065_iam_policy_audit` | Audit IAM Policies | ✅ |
-| 66 | `066_iam_role_audit` | Audit IAM Roles | ⏳ |
+| 66 | `066_iam_role_audit` | Audit IAM Roles | ✅ |
 | 67 | `067_root_usage_detector` | Detect Root Account Usage | ⏳ |
 | 68 | `068_iam_security_report` | IAM Security Report | ⏳ |
 | 69 | `069_iam_resource_tagging` | IAM Resource Tagging Pattern | ⏳ |
