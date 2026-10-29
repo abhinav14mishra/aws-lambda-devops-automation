@@ -74,7 +74,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 66 | `066_iam_role_audit` | Audit IAM Roles | ✅ |
 | 67 | `067_root_usage_detector` | Detect Root Account Usage | ✅ |
 | 68 | `068_iam_security_report` | IAM Security Report | ✅ |
-| 69 | `069_iam_resource_tagging` | IAM Resource Tagging Pattern | ⏳ |
+| 69 | `069_iam_resource_tagging` | IAM Resource Tagging Pattern | ✅ |
 | 70 | `070_security_compliance_checker` | AWS Security Compliance Checker | ⏳ |
 | 71 | `071_rds_start` | Start RDS Instance | ⏳ |
 | 72 | `072_rds_stop` | Stop RDS Instance | ⏳ |
