@@ -76,7 +76,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 68 | `068_iam_security_report` | IAM Security Report | ✅ |
 | 69 | `069_iam_resource_tagging` | IAM Resource Tagging Pattern | ✅ |
 | 70 | `070_security_compliance_checker` | AWS Security Compliance Checker | ✅ |
-| 71 | `071_rds_start` | Start RDS Instance | ⏳ |
+| 71 | `071_rds_start` | Start RDS Instance | ✅ |
 | 72 | `072_rds_stop` | Stop RDS Instance | ⏳ |
 | 73 | `073_rds_snapshot` | Create RDS Snapshot | ⏳ |
 | 74 | `074_rds_delete_old_snapshots` | Delete Old RDS Snapshots | ⏳ |
