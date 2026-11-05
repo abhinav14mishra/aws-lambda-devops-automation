@@ -81,7 +81,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 73 | `073_rds_snapshot` | Create RDS Snapshot | ✅ |
 | 74 | `074_rds_delete_old_snapshots` | Delete Old RDS Snapshots | ✅ |
 | 75 | `075_rds_multi_backup` | Backup Multiple RDS Databases | ✅ |
-| 76 | `076_rds_storage_monitor` | Monitor RDS Storage | ⏳ |
+| 76 | `076_rds_storage_monitor` | Monitor RDS Storage | ✅ |
 | 77 | `077_rds_auto_restart` | Auto Restart Failed RDS Instance | ⏳ |
 | 78 | `078_rds_report` | Daily RDS Report | ⏳ |
 | 79 | `079_rds_archive_backups` | Archive RDS Backup Metadata | ⏳ |
