@@ -86,7 +86,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 78 | `078_rds_report` | Daily RDS Report | ✅ |
 | 79 | `079_rds_archive_backups` | Archive RDS Backup Metadata | ✅ |
 | 80 | `080_rds_cross_region` | Cross-Region RDS Snapshot Copy | ✅ |
-| 81 | `081_cloudwatch_alarm_email` | CloudWatch Alarm To SNS | ⏳ |
+| 81 | `081_cloudwatch_alarm_email` | CloudWatch Alarm To SNS | ✅ |
 | 82 | `082_cloudwatch_slack` | CloudWatch Alarm To Slack | ⏳ |
 | 83 | `083_high_cpu_monitor` | Monitor High CPU EC2 | ⏳ |
 | 84 | `084_memory_metric_monitor` | Monitor Memory Metric | ⏳ |
