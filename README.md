@@ -89,7 +89,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 81 | `081_cloudwatch_alarm_email` | CloudWatch Alarm To SNS | ✅ |
 | 82 | `082_cloudwatch_slack` | CloudWatch Alarm To Slack | ✅ |
 | 83 | `083_high_cpu_monitor` | Monitor High CPU EC2 | ✅ |
-| 84 | `084_memory_metric_monitor` | Monitor Memory Metric | ⏳ |
+| 84 | `084_memory_metric_monitor` | Monitor Memory Metric | ✅ |
 | 85 | `085_alarm_ec2_restart` | Alarm Driven EC2 Restart | ⏳ |
 | 86 | `086_disk_space_monitor` | Monitor Disk Space Metric | ⏳ |
 | 87 | `087_failed_ssh_monitor` | Monitor Failed SSH Attempts | ⏳ |
