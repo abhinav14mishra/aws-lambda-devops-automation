@@ -96,7 +96,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 88 | `088_infrastructure_health` | Infrastructure Health Report | ✅ |
 | 89 | `089_log_aggregator` | Aggregate CloudWatch Logs | ✅ |
 | 90 | `090_error_log_analyzer` | Analyze Error Logs | ✅ |
-| 91 | `091_cost_optimizer` | Stop Idle Resources For Cost Saving | ⏳ |
+| 91 | `091_cost_optimizer` | Stop Idle Resources For Cost Saving | ✅ |
 | 92 | `092_daily_cost_report` | Daily AWS Cost Report | ⏳ |
 | 93 | `093_cost_spike_detector` | Detect Cost Spikes | ⏳ |
 | 94 | `094_ecr_cleanup` | Clean Old ECR Images | ⏳ |
