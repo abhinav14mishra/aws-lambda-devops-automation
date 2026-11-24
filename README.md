@@ -100,7 +100,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 92 | `092_daily_cost_report` | Daily AWS Cost Report | ✅ |
 | 93 | `093_cost_spike_detector` | Detect Cost Spikes | ✅ |
 | 94 | `094_ecr_cleanup` | Clean Old ECR Images | ✅ |
-| 95 | `095_cloudwatch_log_cleanup` | Set CloudWatch Log Retention | ⏳ |
+| 95 | `095_cloudwatch_log_cleanup` | Set CloudWatch Log Retention | ✅ |
 | 96 | `096_github_webhook_deploy` | GitHub Webhook Deployment Pattern | ⏳ |
 | 97 | `097_slack_deployment_bot` | Slack Deployment Notification | ⏳ |
 | 98 | `098_security_group_remediation` | Security Group Auto Remediation | ⏳ |
