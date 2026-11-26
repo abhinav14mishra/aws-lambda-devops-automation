@@ -102,7 +102,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 94 | `094_ecr_cleanup` | Clean Old ECR Images | ✅ |
 | 95 | `095_cloudwatch_log_cleanup` | Set CloudWatch Log Retention | ✅ |
 | 96 | `096_github_webhook_deploy` | GitHub Webhook Deployment Pattern | ✅ |
-| 97 | `097_slack_deployment_bot` | Slack Deployment Notification | ⏳ |
+| 97 | `097_slack_deployment_bot` | Slack Deployment Notification | ✅ |
 | 98 | `098_security_group_remediation` | Security Group Auto Remediation | ⏳ |
 | 99 | `099_multi_account_inventory` | Multi-Account AWS Inventory | ⏳ |
 | 100 | `100_serverless_devops_dashboard` | Serverless DevOps Dashboard Pattern | ⏳ |
