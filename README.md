@@ -104,7 +104,7 @@ A hands-on 100-project AWS Lambda and DevOps learning journey.
 | 96 | `096_github_webhook_deploy` | GitHub Webhook Deployment Pattern | ✅ |
 | 97 | `097_slack_deployment_bot` | Slack Deployment Notification | ✅ |
 | 98 | `098_security_group_remediation` | Security Group Auto Remediation | ✅ |
-| 99 | `099_multi_account_inventory` | Multi-Account AWS Inventory | ⏳ |
+| 99 | `099_multi_account_inventory` | Multi-Account AWS Inventory | ✅ |
 | 100 | `100_serverless_devops_dashboard` | Serverless DevOps Dashboard Pattern | ⏳ |
 
 ## Repository Structure
